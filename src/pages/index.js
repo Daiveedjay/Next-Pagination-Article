@@ -104,17 +104,3 @@ export async function getServerSideProps({ query: { page = 1 } }) {
     },
   };
 }
-
-// export async function getServerSideProps({ query: { page = 1 } }) {
-//   const res = await fetch(`https://dummyjson.com/products`);
-//   const data = await res.json();
-//   const totalItems = data.products.length;
-//   const lastPage = Math.ceil(totalItems / PER_PAGE);
-//   console.log(data);
-
-//   return {
-//     props: {
-//       data,
-//     },
-//   };
-// }
