@@ -1,0 +1,47 @@
+.Pagination__container {
+  font-family: "Ysabeau Infant", sans-serif;
+  background: #d0ece7;
+  max-width: 80rem;
+  margin: 2rem auto;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.Pagination__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid #777;
+  margin: 0rem 0;
+  padding: 1.5rem 3rem;
+  color: #212f3c;
+}
+
+.Pagination__item h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.Pagination__item p {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #2e4053;
+}
+
+.Pagination__item:last-child {
+  border: none;
+}
+
+.Pagination__item button {
+  border: 1.5px solid #212f3c;
+
+  font-weight: 500;
+  color: #212f3c;
+}
+
+.Pagination__buttons {
+  border: 1.5px solid #212f3c;
+  margin: 1rem;
+}
